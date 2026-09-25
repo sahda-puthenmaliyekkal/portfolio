@@ -7,13 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
     <!-- MAIN NAVBAR -->
 <nav class="navbar navbar-expand-lg  py-4 sticky-top shadow-sm" style="background-color: #dbeafe;">
     <div class="container">
-        <a class="navbar-brand fw-semibold" style="color: #1e3a8a;" href="#">
+        <a class="navbar-brand portfolio-name" href="#About">
             SAHDA PM
         </a>
         <button class="navbar-toggler" type="button"
@@ -58,20 +57,24 @@
             <div class="col-lg-6 ps-lg-5">
                 <h4 class="mt-3" style="color: #1e3a8a;">HELLO, I'M</h4>
                 <h1 class="fw-bold mt-2" style="color: #1e3a8a;">SAHDA PUTHENMALIYEKKAL</h1>
-                <h2 class=" mt-2 fw-semibold">Data Analyst & Web Developer</h2>
-                <p class="mt-3 fs-5">
-                    I'm an Economics graduate with a strong interest in data analytics and technology. 
-                    Having completed a professional course in Data Analytics, 
-                    I have developed practical skills in data analysis tools such as <b> Excel, Power BI, Python, SQL, and MongoDB, </b> along with web development technologies including <b> HTML, CSS, Bootstrap, jQuery, and Django. </b>
-                    Currently pursuing a Master's degree in Economics, I enjoy combining analytical thinking with technical expertise to solve real-world problems and create meaningful, data-driven solutions.
+                <h2 class=" mt-2 fw-semibold">Data Analyst</h2>
+                <p class="mt-3 fs-5 hero-text">
+                    I'm an Economics graduate and aspiring Data Analyst with practical experience in
+                    <b>Excel, Power BI, SQL, Python, MongoDB and data visualization.</b>
+                    I enjoy transforming raw data into meaningful insights, interactive dashboards,
+                    and clear business reports that support data-driven decision-making.
+                    I am also familiar with <b>Microsoft Office and Outlook</b>, along with web development technologies including
+                    <b>HTML, CSS, Bootstrap, jQuery, and Django.</b>
+                    Currently pursuing a Master's degree in Economics, I combine analytical thinking,
+                    business understanding, and technical skills to solve real-world problems. 
                 </p>
-                <div class="d-flex justify-content-center gap-4 mb-5 flex-wrap">
-                    <a href="files/Sahda_ATS_Resume.pdf" target="_blank" class="btn px-5 py-3 rounded text-white" style="background-color: #1e3a8a;" >
+                <div class="d-flex justify-content-center gap-3 mb-5 flex-wrap hero-buttons">
+                    <a href="files/Sahda_ATS_Resume.pdf" target="_blank" class="btn hero-btn-primary">
                         View Resume
-                        <i class="fa-solid fa-arrow-down ms-2"></i>
+                        <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i>
                     </a>
 
-                    <a href="files/Sahda_ATS_Resume.pdf" download class="btn text-white px-5 py-3 rounded" style="background-color: #1e3a8a;">
+                    <a href="files/Sahda_ATS_Resume.pdf" download class="btn hero-btn-secondary download-btn">
                         Download Resume
                         <i class="fa-solid fa-download ms-2"></i>
                     </a>
@@ -79,436 +82,1537 @@
             </div>
             <div class="col-lg-6 text-center mt-5">
                 <img src="images/photo.jpg" alt="profile photo"
-                class="img-fluid rounded-4 shadow-lg"
-                style="width: 400px; height: 500px; object-fit: cover;">
+                class="img-fluid hero-photo">
             </div>
         </div>
     </div>
 
-<!-- skill section -->
-<div class="container-fluid mt-5 py-5" style="background-color: #f1f5f9;" id="Skills">
-    <div class="text-center">
-        <h1 class="fw-bold" style="color: #1e3a8a;">Skills & Technologies</h1>
-        <p class="text-secondary fs-5">
-            The tools and technologies I use to analyze data and build modern applications.
-        </p>
-    </div>
+<!-- Skills Section -->
+<div class="skills-section" id="Skills">
+    <div class="container">
 
-    <div class="container mt-5">
-        <div class="row justify-content-center g-6">
-            <div class="col-lg-2 col-md-4 col-sm-6">
-                <div class="skill-card">
-                    <i class="fa-brands fa-python"></i>
-                    <span>Python / Django</span>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-sm-6">
-                <div class="skill-card">
-                    <i class="fa-solid fa-database"></i>
-                    <span>MySQL / MongoDB</span>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-sm-6">
-                <div class="skill-card">
-                    <i class="fa-solid fa-chart-column"></i>
-                    <span>Power BI</span>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-sm-6">
-                <div class="skill-card">
-                    <i class="fa-brands fa-bootstrap"></i>
-                    <span>Bootstrap 5</span>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-sm-6">
-                <div class="skill-card">
-                    <i class="fa-brands fa-html5"></i>
-                    <span>HTML5 / CSS3</span>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-sm-6">
-                <div class="skill-card">
-                    <i class="fa-solid fa-file-excel"></i>
-                    <span>Advanced Excel</span>
-                </div>
-            </div>
+        <div class="skills-header">
+            <span class="skills-label">MY TOOLKIT</span>
+            <h1>Skills & Technologies</h1>
+            <p>
+                Tools and technologies I use to analyze data, create insights,
+                and build practical digital solutions.
+            </p>
         </div>
+
+        <div class="skills-pills">
+
+            <!-- Data Analytics -->
+            <div class="skill-pill skill-python">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+            </div>
+
+            <div class="skill-pill skill-powerbi">
+                <i class="fa-solid fa-chart-column"></i>
+                <span>Power BI</span>
+            </div>
+
+            <div class="skill-pill skill-excel">
+                <i class="fa-solid fa-file-excel"></i>
+                <span>Excel</span>
+            </div>
+
+            <!-- Databases -->
+            <div class="skill-pill skill-mysql">
+                <i class="fa-solid fa-database"></i>
+                <span>MySQL</span>
+            </div>
+
+            <div class="skill-pill skill-mongodb">
+                <i class="fa-solid fa-leaf"></i>
+                <span>MongoDB</span>
+            </div>
+
+            <!-- Development -->
+            <div class="skill-pill skill-django">
+                <i class="fa-solid fa-code"></i>
+                <span>Django</span>
+            </div>
+
+            <div class="skill-pill skill-html">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML</span>
+            </div>
+
+            <div class="skill-pill skill-css">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span>CSS</span>
+            </div>
+
+            <div class="skill-pill skill-bootstrap">
+                <i class="fa-brands fa-bootstrap"></i>
+                <span>Bootstrap</span>
+            </div>
+
+            <div class="skill-pill skill-jquery">
+                <i class="fa-solid fa-code"></i>
+                <span>jQuery</span>
+            </div>
+
+            <!-- Business Tools -->
+            <div class="skill-pill skill-word">
+                <i class="fa-solid fa-file-word"></i>
+                <span>Word</span>
+            </div>
+
+            <div class="skill-pill skill-powerpoint">
+                <i class="fa-solid fa-file-powerpoint"></i>
+                <span>PowerPoint</span>
+            </div>
+
+            <div class="skill-pill skill-outlook">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Outlook</span>
+            </div>
+
+        </div>
+
     </div>
 </div>
 
-<!-- service section -->
-<div class="container-fluid py-5" style="background-color: white;" id="Services">
-    <div class="text-center mb-5">
-        <h1 class="fw-bold" style="color: #1e3a8a;">Services</h1>
-        <h4 class="fw-light">
-            Solutions I provide through data analytics and web development.
-        </h4>
-    </div>
-
+<!-- Services Section -->
+<div class="services-section" id="Services">
     <div class="container">
-        <div class="row g-4">
-            <div class="col-lg-3 col-md-6">
-                <div class="service-card">
-                    <i class="fa-solid fa-chart-line"></i>
-                    <h4 class="mt-3">Data Analysis</h4>
-                    <p>
-                        Analyze data and uncover meaningful insights.
-                    </p>
-                </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6">
-                <div class="service-card">
-                    <i class="fa-solid fa-chart-pie"></i>
-                    <h4 class="mt-3">Data Visualization</h4>
-                    <p>
-                        Build dashboards using Excel and Power BI.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="service-card">
-                    <i class="fa-solid fa-laptop-code"></i>
-                    <h4 class="mt-3">Web Development</h4>
-                    <p>
-                        Develop responsive and modern websites.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="service-card">
-                    <i class="fa-solid fa-database"></i>
-                    <h4 class="mt-3">Database Management</h4>
-                    <p>
-                        Manage and organize data efficiently.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Education section -->
-<div class="container-fluid py-5" style="background-color: #f1f5f9;" id="Education">
-    <div class="text-center mb-5">
-        <h1 class="fw-bold" style="color: #1e3a8a;">Education</h1>
-        <h4 class="fw-light">My academic journey and professional growth.</h4>
-    </div>
-
-    <div class="container">
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h5 class="fw-bold">Data Analytics Course</h5>
-                    <p class="text-primary mb-1">2025-2026</p>
-                    <p>Python, SQL, Excel, Power BI, MongoDB, HTML, CSS, Bootstrap, jQuery, and Django.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h5 class="fw-bold">Master's Degree in Economics</h5>
-                    <p class="text-primary mb-1">2023-present</p>
-                    <p>Indira Gandhi National Open University (IGNOU)</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h5 class="fw-bold">Bachelor's Degree in Economics</h5>
-                    <p class="text-primary mb-1">2018-2021</p>
-                    <p> University of Calicut</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- project section -->
-<div class="container-fluid py-5" id="Projects">
-    <div class="text-center mb-5">
-        <h1 class="fw-bold" style="color: #1e3a8a;">Featured Projects</h1>
-        <h4 class="fw-light"> A collection of projects showcasing my skills in data analytics  and web development.</h4>
-    </div>
-
-    <div class="container">
-        <div class="row align-items-center  mb-5">
-            <div class="col-lg-5 mt-3">
-                <img src="images/portfolio.png"
-                    class="img-fluid rounded-4 shadow">                   
-            </div>
-
-            <div class="col-lg-5">
-                <h2>Portfolio Website</h2> 
-                <p class="text-secondary mt-3">
-                A modern and responsive personal portfolio website designed to showcase my skills, projects, education, and technical expertise. 
-                Built using HTML, CSS, Bootstrap, and jQuery, it features a clean user interface and interactive components.
-                </p>
-                <div class="d-flex gap-2 flex-wrap mt-3">
-                    <span class="badge" style="background-color: #1e3a8a;">HTML</span>
-                    <span class="badge" style="background-color: #1e3a8a;">CSS</span>
-                    <span class="badge" style="background-color: #1e3a8a;">Bootstrap</span>
-                    <span class="badge" >jQuery</span>
-                </div>
-            </div>
-        </div>
-    </div>   
-
-    <div class="container">
-        <div class="row align-items-center mb-5 ">
-            <div class="col-lg-5 mt-3">
-                <img src="images/macfood.png"
-                    class="img-fluid rounded-4 shadow">
-            </div>
-            <div class="col-lg-5">
-                <h2>MacFood Website</h2>
-                <p class="text-secondary mt-3">
-                     A responsive food website built using HTML, CSS,
-                    Bootstrap, and jQuery, featuring modern UI elements
-                    and interactive components.
-                </p>
-                <div class="d-flex gap-2 flex-wrap mt-3">
-                    <span class="badge" style="background-color: #1e3a8a;">HTML</span>
-                    <span class="badge" style="background-color: #1e3a8a;">CSS</span>
-                    <span class="badge" style="background-color: #1e3a8a;">Bootstrap</span>
-                    <span class="badge" style="background-color: #1e3a8a;">jQuery</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row align-items-center  mb-5">
-            <div class="col-lg-5 mt-3">
-                <img src="images/sinet.png"
-                    class="img-fluid rounded-4 shadow">                   
-            </div>
-
-            <div class="col-lg-5">
-                <h2>Sinet Website</h2> 
-                <p class="text-secondary mt-3">
-                A responsive food website built using HTML and CSS,
-                featuring modern and responsive user interface.
-                </p>
-
-                <div class="d-flex gap-2 flex-wrap mt-3">
-                <span class="badge" style="background-color: #1e3a8a;">HTML</span>
-                <span class="badge" style="background-color: #1e3a8a;">CSS</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- certificate section -->
-<div class="container-fluid py-5" style="background-color: #f1f5f9;" id="Certificates">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h1 class="fw-bold" style="color: #1e3a8a;">Professional Certifications</h1>
-            <h4 class="fw-light"></h4>
+        <div class="services-header">
+            <span class="services-label">WHAT I CAN DO</span>
+            <h1>Services</h1>
+            <p>
+                Practical data and technology solutions that turn information
+                into useful insights, reports, dashboards, and digital products.
+            </p>
         </div>
 
-        <div class="row g-4">
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-center p-4 h-100">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
+        <div class="services-grid">
 
-                    <h3 class="mt-4">MongoDB Bootcamp</h3>
-                    <p class="fw-semibold" style="color: #1e3a8a;">2026</p>
-                    <p class="text-secondary">Gained practical experience in MongoDB, working with collections, documents, filtering, aggregation, and database operations.</p>
-                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a53bb112a5def4c38ea5223.pdf" class="btn mt-3 text-white" style="background-color: #1e3a8a;">
-                        View Certificate
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-center p-4 h-100">
-                    <div class="icon-box">
-                        <i class="fa-brands fa-html5"></i>
-                    </div>
-
-                    <h3 class="mt-4">HTML & CSS Bootcamp</h3>
-                    <p class="fw-semibold" style="color: #1e3a8a;">2026</p>
-                    <p class="text-secondary">Gained practical experience in front-end development, working with HTML elements, CSS styling, flexbox, and responsive web design.</p>
-                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a53b996e700681bddbf4629.pdf" class="btn mt-3 text-white" style="background-color: #1e3a8a;">
-                        View Certificate
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-center p-4 h-100">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-robot"></i>
-                    </div>
-
-                    <h3 class="mt-4">Prompt Engineering Bootcamp</h3>
-                    <p class="fw-semibold" style="color: #1e3a8a;">2026</p>
-                    <p class="text-secondary">Completed hands-on training in prompt engineering, focusing on AI tools, prompt optimization, and practical applications of generative AI.</p>
-                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a5208bedc4fc37ceb671dd3.pdf" class="btn mt-3 text-white" style="background-color: #1e3a8a;">
-                        View Certificate
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-center p-4 h-100">
-                    <div class="icon-box">
+            <!-- Data Analysis -->
+            <div class="service-item">
+                <div class="service-top">
+                    <span class="service-number">01</span>
+                    <div class="service-icon service-python">
                         <i class="fa-brands fa-python"></i>
                     </div>
-
-                    <h3 class="mt-4">Python Bootcamp</h3>
-                    <p class="fw-semibold" style="color: #1e3a8a;">2026</p>
-                    <p class="text-secondary">Gained practical experience in Python programming, including variables, conditional statements, functions, and object-oriented concepts.</p>
-                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a5c873daa08415adcb02528.pdf" class="btn mt-3 text-white" style="background-color: #1e3a8a;">
-                        View Certificate
-                    </a>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-center p-4 h-100">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-server"></i>
+                <div class="service-content">
+                    <h3>Data Analysis</h3>
+                    <p>
+                        Analyze data to identify trends, patterns, key metrics,
+                        and insights that support business decisions.
+                    </p>
+
+                    <div class="service-tools">
+                        <span>Python</span>
+                        <span>Excel</span>
+                        <span>SQL</span>
                     </div>
-
-                    <h3 class="mt-4">SQL Bootcamp</h3>
-                    <p class="fw-semibold" style="color: #1e3a8a;">2026</p>
-                    <p class="text-secondary">Completed hands-on training in SQL, covering database design, queries, joins, aggregation functions, and data management.</p>
-                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a5c849396d49bf1a04ca62e.pdf" class="btn mt-3 text-white" style="background-color: #1e3a8a;">
-                        View Certificate
-                    </a>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-center p-4 h-100">
-                    <div class="icon-box">
+
+            <!-- Power BI -->
+            <div class="service-item">
+                <div class="service-top">
+                    <span class="service-number">02</span>
+                    <div class="service-icon service-powerbi">
+                        <i class="fa-solid fa-chart-column"></i>
+                    </div>
+                </div>
+
+                <div class="service-content">
+                    <h3>Power BI & BI Dashboards</h3>
+                    <p>
+                        Build interactive dashboards and KPI reports that make
+                        business performance and trends easy to understand.
+                    </p>
+
+                    <div class="service-tools">
+                        <span>Power BI</span>
+                        <span>KPI</span>
+                        <span>Visualization</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Excel -->
+            <div class="service-item">
+                <div class="service-top">
+                    <span class="service-number">03</span>
+                    <div class="service-icon service-excel">
                         <i class="fa-solid fa-file-excel"></i>
                     </div>
-
-                    <h3 class="mt-4">Excel Bootcamp</h3>
-                    <p class="fw-semibold" style="color: #1e3a8a;">2026</p>
-                    <p class="text-secondary">Completed hands-on training in Microsoft Excel, covering data analysis, formulas, functions, charts, pivot tables, and data visualization techniques.</p>
-                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a5c836ae1c1d94598d0c845.pdf" class="btn mt-3 text-white" style="background-color: #1e3a8a;">
-                        View Certificate
-                    </a>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="card text-center p-4 h-100">
-                    <div class="icon-box">
-                        <i class="fa-brands fa-github"></i>
+                <div class="service-content">
+                    <h3>Excel Reporting</h3>
+                    <p>
+                        Create structured reports, analytical summaries,
+                        dashboards, and business-focused Excel solutions.
+                    </p>
+
+                    <div class="service-tools">
+                        <span>Excel</span>
+                        <span>Reports</span>
+                        <span>Dashboards</span>
                     </div>
-
-                    <h3 class="mt-4">Git&Github Bootcamp</h3>
-                    <p class="fw-semibold" style="color: #1e3a8a;">2026</p>
-                    <p class="text-secondary">Built a strong foundation in Git and GitHub by learning version control concepts, repository management, and collaborative development practices.</p>
-                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a5c85ea0867c0a74d6b59dc.pdf" class="btn mt-3 text-white" style="background-color: #1e3a8a;">
-                        View Certificate
-                    </a>
                 </div>
             </div>
+
+
+            <!-- Data Cleaning -->
+            <div class="service-item">
+                <div class="service-top">
+                    <span class="service-number">04</span>
+                    <div class="service-icon service-cleaning">
+                        <i class="fa-solid fa-filter"></i>
+                    </div>
+                </div>
+
+                <div class="service-content">
+                    <h3>Data Cleaning & Preparation</h3>
+                    <p>
+                        Clean and transform raw datasets by handling missing
+                        values, duplicates, and inconsistent formats.
+                    </p>
+
+                    <div class="service-tools">
+                        <span>Python</span>
+                        <span>Excel</span>
+                        <span>Data Cleaning</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Database -->
+            <div class="service-item">
+                <div class="service-top">
+                    <span class="service-number">05</span>
+                    <div class="service-icon service-mysql">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                </div>
+
+                <div class="service-content">
+                    <h3>Database Solutions</h3>
+                    <p>
+                        Organize, query, and manage structured and document-based
+                        data for analytics and database-driven applications.
+                    </p>
+
+                    <div class="service-tools">
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Web Development -->
+            <div class="service-item">
+                <div class="service-top">
+                    <span class="service-number">06</span>
+                    <div class="service-icon service-web">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                </div>
+
+                <div class="service-content">
+                    <h3>Web Development</h3>
+                    <p>
+                        Develop responsive, database-driven websites and
+                        practical business applications.
+                    </p>
+
+                    <div class="service-tools">
+                        <span>Django</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+</div>
+
+<!-- Education Section -->
+<div class="education-section" id="Education">
+    <div class="container">
+
+        <div class="education-header">
+            <span class="education-label">MY BACKGROUND</span>
+            <h1>Education</h1>
+            <p>
+                My academic background and professional learning journey.
+            </p>
+        </div>
+
+        <div class="education-timeline">
+
+            <!-- Master's -->
+            <div class="education-item">
+                <div class="education-marker education-current">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div class="education-content">
+                    <div class="education-date">
+                        CURRENTLY PURSUING
+                    </div>
+
+                    <h3>Master's Degree in Economics</h3>
+
+                    <h4>Indira Gandhi National Open University (IGNOU)</h4>
+
+                    <p>
+                        Currently pursuing a Master's degree in Economics
+                        through distance learning.
+                    </p>
+
+                    <span class="education-status">
+                        In Progress
+                    </span>
+                </div>
+            </div>
+
+
+            <!-- Bachelor's -->
+            <div class="education-item">
+                <div class="education-marker">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+
+                <div class="education-content">
+                    <div class="education-date">
+                        2018 – 2021
+                    </div>
+
+                    <h3>BA Economics with Foreign Trade</h3>
+
+                    <h4>Amal College of Advanced Studies, Nilambur</h4>
+
+                    <p>
+                        Completed a Bachelor's degree with a focus on Economics
+                        and Foreign Trade.
+                    </p>
+
+                    <span class="education-status completed-status">
+                        Completed
+                    </span>
+                </div>
+            </div>
+
+
+            <!-- Data Analytics -->
+            <div class="education-item">
+                <div class="education-marker">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <div class="education-content">
+                    <div class="education-date">
+                        2026 
+                    </div>
+
+                    <h3>Data Analytics</h3>
+
+                    <h4>Sinet, Perinthalmanna</h4>
+
+                    <p>
+                        Completed professional training in data analytics,
+                        covering tools and techniques used for data analysis,
+                        visualization, and reporting.
+                    </p>
+
+                    <span class="education-status completed-status">
+                        Completed
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Projects Section -->
+<div class="projects-section" id="Projects">
+
+    <div class="container">
+
+        <!-- Section Header -->
+        <div class="projects-header">
+            <span class="projects-label">SELECTED WORK</span>
+
+            <h1>Projects</h1>
+
+            <p>
+                A selection of my work across data analytics, business intelligence,
+                and web development.
+            </p>
+        </div>
+
+
+        <!-- Category Navigation -->
+        <div class="projects-navigation">
+
+            <button type="button"
+                    class="project-nav-btn active"
+                    data-target="dataAnalytics">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                <span>
+                    <small>01</small>
+                    Data Analytics
+                </span>
+
+            </button>
+
+
+            <button type="button"
+                    class="project-nav-btn"
+                    data-target="webDevelopment">
+
+                <i class="fa-solid fa-code"></i>
+
+                <span>
+                    <small>02</small>
+                    Web Development
+                </span>
+
+            </button>
+
+        </div>
+
+
+        <!-- =====================================
+             DATA ANALYTICS
+        ====================================== -->
+
+        <div class="project-panel active" id="dataAnalytics">
+
+
+            <!-- Power BI -->
+            <div class="work-category">
+
+                <div class="work-category-heading">
+
+                    <div>
+                        <span class="work-label">POWER BI</span>
+                        <h2>Business Intelligence & Dashboards</h2>
+                    </div>
+
+                    <p>
+                        Interactive dashboards and visual analysis designed
+                        to turn business data into useful insights.
+                    </p>
+
+                </div>
+
+
+                <!-- Featured Analytics Project -->
+                <div class="analytics-feature">
+
+                    <div class="analytics-image">
+
+                        <img src="images/Retail_Sales_Profitability_Portfolio_Dashboard.jpg"
+                             alt="Retail Sales and Profitability Analysis Dashboard">
+
+                        <div class="image-badge">
+                            <i class="fa-solid fa-chart-column"></i>
+                            Power BI
+                        </div>
+
+                    </div>
+
+
+                    <div class="analytics-content">
+
+                        <div class="project-index">
+                            PROJECT 01
+                        </div>
+
+                        <h3>
+                            Retail Sales & Profitability Analysis
+                        </h3>
+
+                        <p>
+                            A business-focused analytics project that analyzes
+                            retail sales performance and profitability through
+                            interactive data visualization and reporting.
+                        </p>
+
+
+                        <div class="analytics-points">
+
+                            <div>
+                                <i class="fa-solid fa-chart-line"></i>
+                                <span>Sales performance analysis</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-coins"></i>
+                                <span>Profitability analysis</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-filter"></i>
+                                <span>Interactive filtering and reporting</span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-lightbulb"></i>
+                                <span>Business-focused insights</span>
+                            </div>
+
+                        </div>
+
+
+                        <div class="technology-list">
+
+                            <span class="powerbi-tag">
+                                <i class="fa-solid fa-chart-column"></i>
+                                Power BI
+                            </span>
+
+                            <span class="excel-tag">
+                                <i class="fa-solid fa-file-excel"></i>
+                                Excel
+                            </span>
+
+                            <span>
+                                Data Analysis
+                            </span>
+
+                            <span>
+                                Data Visualization
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Excel -->
+            <div class="work-category compact-category">
+
+                <div class="work-category-heading">
+
+                    <div>
+                        <span class="work-label excel-label">EXCEL</span>
+                        <h2>Excel Analysis & Reporting</h2>
+                    </div>
+
+                    <p>
+                        Practical use of Excel for organizing, analyzing,
+                        summarizing, and presenting business data.
+                    </p>
+
+                </div>
+
+
+                <div class="capability-row">
+
+                    <div class="capability-item">
+
+                        <div class="capability-icon excel-icon">
+                            <i class="fa-solid fa-file-excel"></i>
+                        </div>
+
+                        <div>
+                            <h3>Data Analysis</h3>
+                            <p>
+                                Working with structured datasets to identify
+                                trends, patterns, and useful information.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="capability-item">
+
+                        <div class="capability-icon excel-icon">
+                            <i class="fa-solid fa-table"></i>
+                        </div>
+
+                        <div>
+                            <h3>Reporting & Summaries</h3>
+                            <p>
+                                Organizing data into clear summaries and
+                                business-oriented reports.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="capability-item">
+
+                        <div class="capability-icon excel-icon">
+                            <i class="fa-solid fa-chart-column"></i>
+                        </div>
+
+                        <div>
+                            <h3>Data Visualization</h3>
+                            <p>
+                                Presenting analyzed information through
+                                meaningful charts and visual reports.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Python & SQL -->
+            <div class="work-category compact-category">
+
+                <div class="work-category-heading">
+
+                    <div>
+                        <span class="work-label python-label">PYTHON & SQL</span>
+                        <h2>Data Preparation & Analysis</h2>
+                    </div>
+
+                    <p>
+                        Using Python and SQL as part of the data analysis
+                        workflow to work with and prepare datasets.
+                    </p>
+
+                </div>
+
+
+                <div class="capability-row">
+
+                    <div class="capability-item">
+
+                        <div class="capability-icon python-icon">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+
+                        <div>
+                            <h3>Python</h3>
+                            <p>
+                                Data preparation, analysis, transformation,
+                                and working with datasets.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="capability-item">
+
+                        <div class="capability-icon sql-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+
+                        <div>
+                            <h3>SQL</h3>
+                            <p>
+                                Querying and working with structured data
+                                for analysis and reporting.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="capability-item">
+
+                        <div class="capability-icon mongo-icon">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+
+                        <div>
+                            <h3>Data Handling</h3>
+                            <p>
+                                Working with structured and database-driven
+                                information for practical analysis.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =====================================
+             WEB DEVELOPMENT
+        ====================================== -->
+
+        <div class="project-panel" id="webDevelopment">
+
+
+            <!-- Django -->
+            <div class="work-category">
+
+                <div class="work-category-heading">
+
+                    <div>
+                        <span class="work-label django-label">DJANGO</span>
+                        <h2>Full-Stack Web Application</h2>
+                    </div>
+
+                    <p>
+                        A complete database-driven application developed
+                        using Django, Python, MySQL, HTML, CSS, Bootstrap, and jQuery.
+                    </p>
+
+                </div>
+
+
+                <!-- TenderHub -->
+                <div class="django-project">
+
+                    <div class="django-image">
+
+                        <img src="images/tenderhub.png"
+                             alt="TenderHub E-Tender Management Platform">
+
+                        <div class="image-badge">
+                            <i class="fa-solid fa-code"></i>
+                            Django Project
+                        </div>
+
+                    </div>
+
+
+                    <div class="django-content">
+
+                        <div class="project-index">
+                            PROJECT 01
+                        </div>
+
+                        <h3>TenderHub</h3>
+
+                        <p>
+                            An all-in-one e-tender management platform designed
+                            to manage the complete tendering workflow between
+                            buyers, suppliers, and administrators.
+                        </p>
+
+
+                        <div class="django-features">
+
+                            <span>
+                                <i class="fa-solid fa-users"></i>
+                                Multi-role system
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-file-signature"></i>
+                                Tender & bid management
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-file-contract"></i>
+                                Contracts
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Orders
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-credit-card"></i>
+                                Payments
+                            </span>
+
+                            <span>
+                                <i class="fa-solid fa-chart-pie"></i>
+                                Reports & dashboards
+                            </span>
+
+                        </div>
+
+
+                        <div class="technology-list">
+
+                            <span class="django-tag">
+                                Django
+                            </span>
+
+                            <span class="python-tag">
+                                Python
+                            </span>
+
+                            <span class="bootstrap-tag">
+                                Bootstrap
+                            </span>
+
+                            <span class="bootstrap-tag">
+                                HTML
+                            </span>
+
+                            <span class="bootstrap-tag">
+                                CSS
+                            </span>
+
+                            <span class="mysql-tag">
+                                MySQL
+                            </span>
+
+                            <span class="jquery-tag">
+                                jQuery
+                            </span>
+
+                        </div>
+
+                        <a href="YOUR_GITHUB_LINK"
+                            target="_blank"
+                            class="project-link">
+                                <i class="fa-brands fa-github"></i>
+                                View on GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Frontend -->
+            <div class="work-category">
+
+                <div class="work-category-heading">
+
+                    <div>
+                        <span class="work-label frontend-label">FRONTEND</span>
+                        <h2>Responsive Web Projects</h2>
+                    </div>
+
+                    <p>
+                        Responsive websites created using HTML, CSS,
+                        Bootstrap, and jQuery.
+                    </p>
+
+                </div>
+
+
+                <div class="frontend-project-grid">
+
+
+                    <!-- Portfolio -->
+                    <div class="frontend-project">
+
+                        <div class="frontend-project-image">
+
+                            <img src="images/portfolio.png"
+                                 alt="Personal Portfolio Website">
+
+                            <span class="frontend-number">
+                                01
+                            </span>
+
+                        </div>
+
+                        <div class="frontend-project-content">
+
+                            <span class="frontend-type">
+                                PORTFOLIO
+                            </span>
+
+                            <h3>
+                                Portfolio Website
+                            </h3>
+
+                            <p>
+                                A responsive personal portfolio designed to
+                                showcase professional skills, education,
+                                projects, and technical experience.
+                            </p>
+
+                            <div class="frontend-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                            </div>
+
+                            <a href=" https://sahda-puthenmaliyekkal.github.io/portfolio/"
+                                target="_blank"
+                                class="project-link">
+                                    <i class="fa-brands fa-github"></i>
+                                    View Project
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- MacFood -->
+                    <div class="frontend-project">
+
+                        <div class="frontend-project-image">
+
+                            <img src="images/macfood.png"
+                                 alt="MacFood Website">
+
+                            <span class="frontend-number">
+                                02
+                            </span>
+
+                        </div>
+
+                        <div class="frontend-project-content">
+
+                            <span class="frontend-type">
+                                RESPONSIVE WEBSITE
+                            </span>
+
+                            <h3>
+                                MacFood Website
+                            </h3>
+
+                            <p>
+                                A responsive food website focused on clean
+                                presentation, structured layouts, and
+                                interactive interface components.
+                            </p>
+
+                            <div class="frontend-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>jQuery</span>
+                            </div>
+
+                            <a href="https://sahda-puthenmaliyekkal.github.io/MacFood/"
+                                target="_blank"
+                                class="project-link">
+                                    <i class="fa-brands fa-github"></i>
+                                    View Project
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Sinet -->
+                    <div class="frontend-project">
+
+                        <div class="frontend-project-image">
+
+                            <img src="images/sinet.png"
+                                 alt="Sinet Website">
+
+                            <span class="frontend-number">
+                                03
+                            </span>
+
+                        </div>
+
+                        <div class="frontend-project-content">
+
+                            <span class="frontend-type">
+                                RESPONSIVE WEBSITE
+                            </span>
+
+                            <h3>
+                                Sinet Website
+                            </h3>
+
+                            <p>
+                                A responsive website developed using HTML
+                                and CSS with a focus on clean structure
+                                and user-friendly presentation.
+                            </p>
+
+                            <div class="frontend-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <a href="https://sahda-puthenmaliyekkal.github.io/SinetWeb/"
+                                target="_blank"
+                                class="project-link">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    View project
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Certificate Section -->
+<div class="certificates-section" id="Certificates">
+
+    <div class="container">
+
+        <!-- Section Header -->
+        <div class="certificates-header">
+            <span class="certificates-label">PROFESSIONAL DEVELOPMENT</span>
+
+            <h1>Professional Certifications</h1>
+
+            <p>
+                Certifications and professional training that support my
+                technical, analytical, and business skills.
+            </p>
+        </div>
+
+
+        <!-- Certificates Grid -->
+        <div class="certificates-grid">
+
+            <!-- Data Analytics - Featured / Pending -->
+            <div class="certificate-card certificate-featured">
+
+                <div class="certificate-featured-label">
+                    <i class="fa-solid fa-star"></i>
+                    MOST RELEVANT
+                </div>
+
+                <div class="certificate-icon analytics-certificate-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <span class="certificate-status pending-status">
+                        <i class="fa-solid fa-clock"></i>
+                        Certificate Pending
+                    </span>
+
+                    <h3>Data Analytics</h3>
+
+                    <p class="certificate-year">
+                        2026
+                    </p>
+
+                    <p class="certificate-description">
+                        Professional training in data analytics covering
+                        data analysis, visualization, reporting, and
+                        analytical tools used to transform data into
+                        meaningful business insights.
+                    </p>
+
+                </div>
+
+                <div class="certificate-action">
+                    <span class="certificate-pending-note">
+                        Certificate will be added once received.
+                    </span>
+                </div>
+
+            </div>
+
+
+            <!-- MongoDB -->
+            <div class="certificate-card">
+
+                <div class="certificate-icon mongodb-certificate-icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <h3>MongoDB Bootcamp</h3>
+
+                    <p class="certificate-year">
+                        2026
+                    </p>
+
+                    <p class="certificate-description">
+                        Gained practical experience in MongoDB, working with
+                        collections, documents, filtering, aggregation, and
+                        database operations.
+                    </p>
+
+                </div>
+
+                <div class="certificate-action">
+                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a53bb112a5def4c38ea5223.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- HTML & CSS -->
+            <div class="certificate-card">
+
+                <div class="certificate-icon html-certificate-icon">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <h3>HTML & CSS Bootcamp</h3>
+
+                    <p class="certificate-year">
+                        2026
+                    </p>
+
+                    <p class="certificate-description">
+                        Gained practical experience in front-end development,
+                        working with HTML elements, CSS styling, flexbox,
+                        and responsive web design.
+                    </p>
+
+                </div>
+
+                <div class="certificate-action">
+                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a53b996e700681bddbf4629.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Prompt Engineering -->
+            <div class="certificate-card">
+
+                <div class="certificate-icon prompt-certificate-icon">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <h3>Prompt Engineering Bootcamp</h3>
+
+                    <p class="certificate-year">
+                        2026
+                    </p>
+
+                    <p class="certificate-description">
+                        Completed hands-on training in prompt engineering,
+                        focusing on AI tools, prompt optimization, and
+                        practical applications of generative AI.
+                    </p>
+
+                </div>
+
+                <div class="certificate-action">
+                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a5208bedc4fc37ceb671dd3.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Python -->
+            <div class="certificate-card">
+
+                <div class="certificate-icon python-certificate-icon">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <h3>Python Bootcamp</h3>
+
+                    <p class="certificate-year">
+                        2026
+                    </p>
+
+                    <p class="certificate-description">
+                        Gained practical experience in Python programming,
+                        including variables, conditional statements,
+                        functions, and object-oriented concepts.
+                    </p>
+
+                </div>
+
+                <div class="certificate-action">
+                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a5c873daa08415adcb02528.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- SQL -->
+            <div class="certificate-card">
+
+                <div class="certificate-icon sql-certificate-icon">
+                    <i class="fa-solid fa-server"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <h3>SQL Bootcamp</h3>
+
+                    <p class="certificate-year">
+                        2026
+                    </p>
+
+                    <p class="certificate-description">
+                        Completed hands-on training in SQL, covering database
+                        design, queries, joins, aggregation functions,
+                        and data management.
+                    </p>
+
+                </div>
+
+                <div class="certificate-action">
+                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a5c849396d49bf1a04ca62e.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Excel -->
+            <div class="certificate-card">
+
+                <div class="certificate-icon excel-certificate-icon">
+                    <i class="fa-solid fa-file-excel"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <h3>Excel Bootcamp</h3>
+
+                    <p class="certificate-year">
+                        2026
+                    </p>
+
+                    <p class="certificate-description">
+                        Completed hands-on training in Microsoft Excel,
+                        covering data analysis, formulas, functions,
+                        charts, pivot tables, and data visualization
+                        techniques.
+                    </p>
+
+                </div>
+
+                <div class="certificate-action">
+                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a5c836ae1c1d94598d0c845.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Git & GitHub -->
+            <div class="certificate-card">
+
+                <div class="certificate-icon github-certificate-icon">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+
+                <div class="certificate-content">
+
+                    <h3>Git & GitHub Bootcamp</h3>
+
+                    <p class="certificate-year">
+                        2026
+                    </p>
+
+                    <p class="certificate-description">
+                        Built a strong foundation in Git and GitHub by learning
+                        version control concepts, repository management,
+                        and collaborative development practices.
+                    </p>
+
+                </div>
+
+                <div class="certificate-action">
+                    <a href="https://media.letsupgrade.net/qW26YHAqXbgZlAazhsJTYCkw6o93/6a5c85ea0867c0a74d6b59dc.pdf"
+                       target="_blank"
+                       class="certificate-btn">
+                        View Certificate
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </div>
 
 <!-- contact section -->
-<div class="container-fluid py-5" style="background-color: #dbeafe;" id="Contact">
+<section class="contact-section" id="Contact">
     <div class="container">
-        <div class="text-center mb-5">
-            <h1 class="fw-bold" style="color: #1e3a8a;">Contact Me</h1>
-            <h4 class="fw-light">
-                Feel free to reach out for collaborations or opportunities.
-            </h4>
+
+        <!-- Section Heading -->
+        <div class="contact-header text-center">
+            <span class="contact-label">GET IN TOUCH</span>
+
+            <h1>Let's Connect</h1>
+
+            <p>
+                Have a project, opportunity, or idea in mind?
+                I'd be happy to connect and discuss how we can work together.
+            </p>
         </div>
 
-        <div class="row align-items-center">
-            <div class="col-lg-5">
-                <h2 class="mb-4">Let's Connect</h2>
-                <p class="text-secondary">
-                    I'm always open to discussing new projects,
-                    creative ideas, or opportunities.
-                </p>
-                <p><i class="fa-solid fa-envelope text-primary"></i> shahdasifpm@gmail.com</p>
-                <p><i class="fa-solid fa-phone text-primary"></i> +91 7306589978</p>
-                <p><i class="fa-solid fa-location-dot text-primary"></i> Kerala, India</p>
 
-                <div class="mt-4">
-                    <h5 class="mb-3">Connect with me</h5>
-                    <div class="d-flex gap-3">
-                        <a href="https://github.com/sahda_puthenmaliyekkal" target="_blank" class="social-icon">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
+        <!-- Contact Content -->
+        <div class="contact-wrapper">
 
-                        <a href="https://instagram.com/shahda_asif" target="_blank" class="social-icon">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
+            <!-- Left Side -->
+            <div class="contact-info">
 
-                        <a href="https://leetcode.com/sahda_puthenmaliyekkal" target="_blank" class="social-icon">
-                            <i class="fa-solid fa-code"></i>
-                        </a>
+                <div class="contact-intro">
+                    <h2>Let's Talk</h2>
 
-                        <a href="https://linkedin.com/in/Sahda Puthenmaliyekkal" target="_blank" class="social-icon"> 
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
+                    <p>
+                        I'm open to opportunities in data analytics, web development,
+                        collaborations, and interesting projects where I can contribute
+                        my skills and continue learning.
+                    </p>
+                </div>
+
+
+                <!-- Contact Details -->
+                <div class="contact-details">
+
+                    <a href="mailto:shahdasifpm@gmail.com" class="contact-detail">
+                        <div class="contact-detail-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <span>Email</span>
+                            <strong>shahdasifpm@gmail.com</strong>
+                        </div>
+                    </a>
+
+
+                    <a href="tel:+917306589978" class="contact-detail">
+                        <div class="contact-detail-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <div>
+                            <span>Phone</span>
+                            <strong>+91 7306589978</strong>
+                        </div>
+                    </a>
+
+
+                    <div class="contact-detail">
+                        <div class="contact-detail-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div>
+                            <span>Location</span>
+                            <strong>Kerala, India</strong>
+                        </div>
+                    </div>
 
                 </div>
 
+
+                <!-- Social Links -->
+                <div class="contact-social">
+                    <h5>Connect with me</h5>
+
+                    <div class="social-links">
+
+                        <a href="https://github.com/sahda-puthenmaliyekkal"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="social-link"
+                           aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+
+                        <a href="https://instagram.com/shahda_asif"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="social-link"
+                           aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+
+                        <a href="https://leetcode.com/sahda_puthenmaliyekkal"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="social-link"
+                           aria-label="LeetCode">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+
+
+                        <a href="https://linkedin.com/in/sahda-puthenmaliyekkal-370a76421"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="social-link"
+                           aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                    </div>
+                </div>
+
             </div>
-        </div>
 
 
+            <!-- Right Side - Contact Form -->
+            <div class="contact-form-wrapper">
 
-            <div class="col-lg-7">
-                <form>
-                    <input type="text"
-                        class="form-control mb-3 text-black"
-                        placeholder="Your Name">
+                <div class="contact-form-header">
+                    <h3>Send a Message</h3>
 
-                    <input type="email"
-                        class="form-control mb-3 text-black"
-                        placeholder="Your Email">
+                    <p>
+                        Fill out the form below and I'll get back to you as soon as possible.
+                    </p>
+                </div>
 
-                    <input type="text"
-                        class="form-control mb-3 text-black"
-                        placeholder="Subject">
 
-                    <textarea class="form-control mb-3 text-black"
-                        rows="5"
-                        placeholder="Your Message"></textarea>
+                <form class="contact-form">
 
-                    <button class="btn px-4 py-2 text-white" style="background-color: #1e3a8a;">
+                    <div class="contact-form-row">
+
+                        <div class="contact-form-group">
+                            <label for="contactName">Your Name</label>
+
+                            <input type="text"
+                                   id="contactName"
+                                   name="name"
+                                   class="contact-input"
+                                   placeholder="Enter your name">
+                        </div>
+
+
+                        <div class="contact-form-group">
+                            <label for="contactEmail">Your Email</label>
+
+                            <input type="email"
+                                   id="contactEmail"
+                                   name="email"
+                                   class="contact-input"
+                                   placeholder="Enter your email">
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-form-group">
+                        <label for="contactSubject">Subject</label>
+
+                        <input type="text"
+                               id="contactSubject"
+                               name="subject"
+                               class="contact-input"
+                               placeholder="What would you like to discuss?">
+                    </div>
+
+
+                    <div class="contact-form-group">
+                        <label for="contactMessage">Your Message</label>
+
+                        <textarea id="contactMessage"
+                                  name="message"
+                                  class="contact-input contact-textarea"
+                                  rows="5"
+                                  placeholder="Write your message here..."></textarea>
+                    </div>
+
+
+                    <button type="submit" class="contact-submit">
                         Send Message
+                        <i class="fa-solid fa-arrow-right"></i>
                     </button>
+
                 </form>
+
             </div>
+
         </div>
+
     </div>
-</div>
+</section>
+
 
 <!-- footer section -->
-<footer class="py-4 text-center" style="background-color: #1e3a8a; color: white;">
-        <p class="mb-0">
+<footer class="portfolio-footer">
+    <div class="container">
+        <p>
             © 2026 Sahda Puthenmaliyekkal. All Rights Reserved.
         </p>
     </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+$(document).ready(function () {
 
+    $(".project-nav-btn").on("click", function () {
+
+        var target = $(this).data("target");
+
+        $(".project-nav-btn").removeClass("active");
+        $(this).addClass("active");
+
+        $(".project-panel").removeClass("active");
+
+        $("#" + target).addClass("active");
+
+    });
+
+});
+</script>
 </body>
 </html>
