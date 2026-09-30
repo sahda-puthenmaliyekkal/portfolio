@@ -35,15 +35,47 @@
     hyphens: auto;
 }
 
-/* Hero profile photo */
+/* =========================================
+   HERO PROFILE PHOTO
+========================================= */
+
 .hero-photo {
-    width: 400px;
-    height: 500px;
-    object-fit: cover;
+    width: 420px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
     border-radius: 24px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.12);
+    transform: translateY(-40px);
 }
 
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .hero-photo {
+        width: 350px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 576px) {
+
+    .hero-photo {
+        width: 280px;
+    }
+
+}
 .hero-buttons {
     margin-top: 25px;
 }
